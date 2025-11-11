@@ -6,6 +6,7 @@ class Book:
     default_format = "бумажная"
 
 
+
     def __init__(self, title, author, pages, format=None):
         self.title = title
         self.author = author
